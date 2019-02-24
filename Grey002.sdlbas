@@ -1,0 +1,1 @@
+width=800height=800shades=50inc=width/shadessetdisplay(width,height,32,1)paper(rgb(255,255,255))clssetautoback(25)for i=1 to shades	c=(i-1)*255/shades	ink(rgb(c,c,c))	bar((i-1)*inc,0,i*inc,height)nextwaitkey(k_escape)
